@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/lvCategories"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbarStyle="outsideOverlay" />
+
+    <com.linio.android.objects.ND_SectionIndex
+        android:id="@+id/rvSectionIndex"
+        android:layout_width="@dimen/section_index_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:layout_marginEnd="@dimen/margin_compact"
+        android:background="@color/semi_transparent_white_95" />
+
+</LinearLayout>
